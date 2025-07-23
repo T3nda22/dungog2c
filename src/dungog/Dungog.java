@@ -15,10 +15,12 @@ public class Dungog {
           System.out.print("Enter your name: " );
           name = sc.nextLine();
   
-          System.out.printIn("Enter Birth year:  ");
+          System.out.print("Enter Birth year:  ");
           byear = sc.nextInt();
         
-          System.out.printIn("\nHello" +name+ "Your age is: "+(2025-byear));
+          System.out.print("\nHello" +name+ "Your age is: "+(2025-byear));
+           
+             if((2025-byear) >= 18);
           
     }
     
